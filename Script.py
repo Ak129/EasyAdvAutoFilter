@@ -140,7 +140,7 @@ Dᴏɴ'ᴛ Wᴏʀʀʏ 😊, Cʜᴏᴏsᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Oɴᴇ Bᴇʟ
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """☹️𝙼𝙾𝚅𝙸𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳 𝙸𝙽 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝚂𝙾 𝚆𝙰𝙸𝚃 𝙵𝙴𝚆 𝙳𝙰𝚈𝚂 𝚆𝙴 𝚆𝙸𝙻𝙻 𝚄𝙿𝙻𝙾𝙰𝙳 𝚂𝙾𝙾𝙽.."""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -199,11 +199,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b><a href=https://t.me/Movieshubproo>{file_caption}</a>
-
-
-▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : @Movieshubproo
-▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : @Movieshubproo</b>""" 
+<b>{file_caption}</b> \n\n╭── • ❰♥️SUPPORT US♥️❱ • ───➤\n┣ ▫️ @Movieshubproo\n┣ ▫️ @Movieshubproo_chat\n╰─────── • ◆ • ───────➤""" 
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
