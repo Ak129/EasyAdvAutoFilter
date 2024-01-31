@@ -199,11 +199,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b><a href=https://t.me/Movieshubproo>{file_caption}</a>
-
-
-▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : @Movieshubproo
-▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : @Movieshubproo</b>""" 
+<b>{file_caption}</b> \n\n╭── • ❰ <b>SUPPORT US</b> ❱ • ──➤\n┣ ▫️ @Movieshubproo\n┣ ▫️ @Movieshubproo_chat\n╰─────── • ◆ • ───────➤""" 
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
@@ -250,7 +246,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
     OWNER_INFO = """
 <b> ⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ◈ ꜰᴜʟʟ ɴᴀᴍᴇ : APKTHUGS_OWNER ✌ 
+ ◈ ꜰᴜʟʟ ɴᴀᴍᴇ : @APKTHUGS_OWNER ✌ 
  ◈ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ᴀɴʏ ᴛʏᴘᴇ ᴏғ ʙᴏᴛ ᴛʜᴇɴ ᴅᴍ ᴍᴇ " ᴘᴀɪᴅ " 
  </b>"""
 
