@@ -153,7 +153,17 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url=GRP_LNK)
+                         ]
+                        ]
+                    )
+                )
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
@@ -162,7 +172,17 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url=GRP_LNK)
+                         ]
+                        ]
+                    )
+                )
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
@@ -312,7 +332,17 @@ async def start(client, message):
                 file_id=file_id,
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
-                
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                     [
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                   ],[
+                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url=GRP_LNK)
+                     ]
+                    ]
+                )
+            )
         #     filesarr.append(msg)
         # k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
         # await asyncio.sleep(600)
@@ -366,7 +396,17 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                     [
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                   ],[
+                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url=GRP_LNK)
+                     ]
+                    ]
+                )
+            )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '@Unknwon_Request ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
@@ -418,7 +458,17 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        
+        reply_markup=InlineKeyboardMarkup(
+            [
+             [
+              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+           ],[
+              InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url=GRP_LNK)
+             ]
+            ]
+        )
+    )
     # btn = [[
     #     InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     # ]]
