@@ -213,14 +213,7 @@ Tʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '🔄 Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ �
 Aғᴛᴇʀ ᴛʜᴀᴛ ɪ'ʟʟ sᴇɴᴅ ʏᴏᴜ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ᴘʀɪᴠᴀᴛᴇʟʏ.**"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
-
-IMDb Data:
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"""
 
     
     ALL_FILTERS = """
