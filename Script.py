@@ -198,8 +198,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """
-<b>{file_caption}</b> \n\n╭── • ❰ <b>SUPPORT US</b> ❱ • ──➤\n┣ ▫️ @Movieshubproo\n┣ ▫️ @Movieshubproo_chat\n╰─────── • ◆ • ───────➤""" 
+    CAPTION = """<b>{file_caption}</b> \n\n●──── •❴<b>📍NOTICE📍</b>❵• ─────●
+🌏 If You Want To Download This File In Browser Then Forward This File To @StreamingHubBot & Get The Direct Download Link.⏩⏩""" 
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
