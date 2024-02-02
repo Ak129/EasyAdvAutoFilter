@@ -1,1 +1,1 @@
-worker: nohup python3 bot.py > bot_output.log 2>&1 &
+worker: python3 bot.py
