@@ -242,6 +242,7 @@ async def next_page(bot, query):
     if not settings["button"]:
         if settings["imdb"]:
             TEMPLATE = script.IMDB_TEMPLATE_TXT
+         if imdb:
             cap = TEMPLATE.format(
                 qurey=search,
                 title=imdb['title'],
