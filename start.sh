@@ -9,4 +9,4 @@ fi
 cd /EasyAdvAutoFilter
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-python3 bot.py
+nohup python3 bot.py > bot_output.log 2>&1 &
