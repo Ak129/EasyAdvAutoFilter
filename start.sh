@@ -8,7 +8,7 @@ else
 fi
 cd /EasyAdvAutoFilter
 apt install npm
-npm install pm
+npm install pm2
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 pm2 start bot.py -i 2 --max-memory-restart 200M
