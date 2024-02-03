@@ -7,6 +7,8 @@ else
   git clone $UPSTREAM_REPO /EasyAdvAutoFilter
 fi
 cd /EasyAdvAutoFilter
+apt install npm
+npm install pm
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-nohup python3 bot.py > bot_output.log 2>&1 &
+pm2 start bot.py -i 2 --max-memory-restart 200M
